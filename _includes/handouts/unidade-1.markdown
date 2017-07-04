@@ -69,17 +69,17 @@ Observe o exemplo, mas use outras expressões:
 
 <div class="row">
   <div class="col" markdown="1">
-![Café da manhã](/images/cafe-da-manha.png)
+![Café da manhã]({{ site.baseurl }}/images/cafe-da-manha.png)
 *Café da manhã. Mulher, 58 anos, região Norte.*
 Café com leite, tapioca e banana.
   </div>
   <div class="col" markdown="1">
-![Café da manhã](/images/almoco.png)
+![Café da manhã]({{ site.baseurl }}/images/almoco.png)
 *Almoço. Mulher, 28 anos, região Sudeste.*
 Arroz, feijão e jiló refogado.
   </div>
   <div class="col" markdown="1">
-![Café da manhã](/images/janta.png)
+![Café da manhã]({{ site.baseurl }}/images/janta.png)
 Jantar. Mulher, 28 anos, região Centro-Oeste.
 *Arroz, feijão, carne moída com legumes.*
   </div>

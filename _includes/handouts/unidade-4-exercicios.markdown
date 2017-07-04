@@ -5,7 +5,7 @@ Unidade 4
 
 ##### Observe a tirinha e responda as questões
 
-![Tirinha da Mafalda](/images/tirinha.png)
+![Tirinha da Mafalda]({{ site.baseurl }}/images/tirinha.png)
 
 A conjunção “como” no primeiro quadrinho transmite a ideia de que?
 {% include textarea.html numberOfLines="1" %}

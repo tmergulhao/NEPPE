@@ -8,9 +8,9 @@ Unidade 1
 <section class="dialog" markdown="1">
 
 - Júlia
-  - ![Júlia](/images/julia.jpg)
+  - ![Júlia]({{ site.baseurl }}/images/julia.jpg)
 - Ana
-  - ![Ana](/images/ana.jpg)
+  - ![Ana]({{ site.baseurl }}/images/ana.jpg)
 
 <div>
   <p>Oi, Ana!</p>
@@ -67,9 +67,9 @@ Unidade 1
 <section class="dialog" markdown="1">
 
 - Fernanda
-  - ![Júlia](/images/fernanda.jpg)
+  - ![Júlia]({{ site.baseurl }}/images/fernanda.jpg)
 - Paulo
-  - ![Ana](/images/paulo.jpg)
+  - ![Ana]({{ site.baseurl }}/images/paulo.jpg)
 
 <div class="from-me">
   <p>E aí, Fernanda.</p>
