@@ -1,0 +1,72 @@
+div.contrast {
+  display: block;
+  float: right;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  xposition:relative;
+  z-index: 999;
+
+  @media print {
+    display: none;
+  }
+
+  & > div {
+    float: right;
+    display: block;
+  }
+  button {
+      float: right;
+      cursor: pointer;
+      display: block;
+      border-radius: 3em;
+      text-transform: uppercase;
+      padding: 0.5em 1em;
+      margin: 1em;
+      font-weight: 700;
+      box-shadow: 0px 0.2em 1em #222;
+  }
+}
+
+body {
+  & > div.contrast {
+    button {
+      color: white;
+      background-color: black;
+      transition: background-color 2s ease-out;
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  &.contrast {
+    img {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+    }
+    h1, h2 {
+      color: black;
+    }
+    .atention {
+      background-color: #DDD;
+      box-shadow: none;
+      color: black;
+      h2 {
+        background-color: #CCC;
+        color: black;
+      }
+      blockquote p {
+        color: black;
+      }
+    }
+  }
+  &.contrast div.contrast {
+    button {
+      background-color: #159957;
+      background-image: linear-gradient(120deg, #155799, #159957);
+      &:hover {}
+    }
+  }
+}

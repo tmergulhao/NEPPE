@@ -1,0 +1,39 @@
+.atention {
+  background-color: #ff4646;
+  margin: 0;
+  margin-top: 1em;
+  @media print {
+    break-inside: avoid-column;
+    box-decoration-break: slice;
+  }
+  border-radius: 1em;
+  overflow: hidden;
+  color: white;
+  padding: 0 1em;
+  max-width: 100%;
+  box-shadow: 2px 2px 4px rgb(99, 99, 99);
+  p {
+    text-indent: 0 !important;
+  }
+  p, ul li, ol li {
+    font-size: 0.9em;
+  }
+  ul {
+    padding-left: 1em;
+  }
+  h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    color: white;
+    padding: 0.3em 1em;
+    margin: 0 -1em;
+    background-color: rgb(255, 102, 99);
+  }
+  & > blockquote {
+    padding-left: 0.5em !important;
+  }
+  blockquote p {
+    color: white;
+  }
+}

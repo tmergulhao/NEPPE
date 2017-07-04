@@ -1,0 +1,40 @@
+section.handout-section {
+
+  @media print {
+    column-count: 2;
+    column-gap: 2em;
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 1.3;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+    &:last-child {
+      margin-bottom: 1em;
+    }
+    &:first-child {
+      text-indent: 0;
+      margin-top: 1em;
+    }
+  }
+}
+
+section.handout-section.handout-section-content {
+  @media print {
+    column-count: 2;
+    column-gap: 2em;
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
+  }
+}

@@ -1,0 +1,12 @@
+span.textinput {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  opacity: 0.4;
+
+  &.textinput-1 { width: 1em; }
+  &.textinput-2 { width: 2em; }
+  &.textinput-3 { width: 3em; }
+  &.textinput-4 { width: 4em; }
+  &.textinput-5 { width: 5em; }
+  &.textinput-6 { width: 6em; }
+}

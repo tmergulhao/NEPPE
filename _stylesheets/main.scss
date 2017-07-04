@@ -1,0 +1,39 @@
+---
+permalink: '/stylesheets/main.css'
+---
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Asap", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71;
+}
+
+table {
+  font-size: 0.7em;
+  margin: 1em auto;
+  width: 98%;
+  display: table;
+  thead, tbody {
+    width: 100%;
+  }
+  td, th {
+    padding: 0.4em 0.6em !important;
+  }
+}
+
+@import "handout-1";
+@import "handout-1-exercises";
+@import "dialog";
+@import "tag-flex";
+@import "textarea";
+@import "textinput";
+@import "atention";
+@import "grid";
+@import "correlation-list";
+@import "contrast";
+@import "typography";
+@import "cover";
+@import "print";
