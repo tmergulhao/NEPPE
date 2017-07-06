@@ -24,7 +24,8 @@ body.contrast {
 	.tag-flex ul {
 		color: black;
 		li {
-			background-color: #ddd;
+			background-color: transparent;
+			border: 0.5px solid black;
 		}
 	}
 }

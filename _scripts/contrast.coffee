@@ -11,3 +11,6 @@ $ ".contrast"
     else
       body
         .addClass "contrast"
+
+$ ".atention"
+  .prepend("<p></p>")
